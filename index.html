@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Survive the Meme - Download</title>
+  <style>
+    /* Background image */
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('9d5dfcec8e9ac17bfabb8bdbca1aa64e.jpg');
+      background-size: cover;
+      background-position: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Dark overlay */
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 60px;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+    }
+
+    /* Headline */
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+
+    /* Subtext */
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+
+    /* Button style */
+    button {
+      background-color: crimson;
+      border: none;
+      color: white;
+      padding: 15px 40px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    /* Hover effect */
+    button:hover {
+      background-color: #b30033;
+      transform: scale(1.05);
+      box-shadow: 0 0 10px crimson;
+    }
+
+    /* Creator credit */
+    .credit {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="overlay">
+    <h1>Survive the Meme</h1>
+    <p>A horror game like no other. Can you survive her?</p>
+    <button id="downloadBtn">Download</button>
+    <div class="credit">Created by BeastBoyGana</div>
+  </div>
+
+  <script>
+    document.getElementById("downloadBtn").addEventListener("click", function () {
+      window.open("https://drive.google.com/file/d/1-CfNhXpMvnVabevVhklOQ6nQE28PFvak/view?usp=sharing", "_blank");
+    });
+  </script>
+  
+</body>
+</html>
